@@ -93,3 +93,13 @@ button:hover {
 .btn-clear:hover {
   background-color: #db1a54;
 }
+
+@media (max-width: 48rem) {
+  .calculator {
+    width: 22rem;
+  }
+  button {
+    width: 50px;
+    height: 60px;
+  }
+}
